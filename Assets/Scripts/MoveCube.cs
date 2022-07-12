@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class MoveCube : MonoBehaviour
 {
+    [SerializeField] private int speed = 2;
     void Update()
     {
-        transform.position += Time.deltaTime * transform.forward * 2;
+        transform.position += Time.deltaTime * transform.forward * speed;
     }
 }

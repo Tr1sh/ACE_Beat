@@ -103,6 +103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1493302099493582510}
   - component: {fileID: 1947071676867111952}
+  - component: {fileID: -8789701189081429893}
   m_Layer: 9
   m_Name: RedTarget
   m_TagString: Untagged
@@ -138,6 +139,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c0cf11da6baefe4f8cbcaaa53d5b18c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 4
+--- !u!65 &-8789701189081429893
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5341482080816040381}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 0.5, z: 0.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8623825543289836669
 GameObject:
   m_ObjectHideFlags: 0
